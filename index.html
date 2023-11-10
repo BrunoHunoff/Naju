@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bruno</title>
+</head>
+<body>
+    <div>
+        <button onclick="changeImg()" id="clique">Clique aqui</button>
+        <img id="imagem" src="" alt="">
+        <h1 id="titulo"></h1>
+    </div>
+    <script>
+        function changeImg(){
+            var imagem = document.getElementById('imagem');
+        
+            imagem.src = "lactea.jpg";
+        
+            var titulo = document.getElementById('titulo');
+        
+            titulo.innerText = "TMJ VSF🤙";
+
+            alert("TE AMO");
+        }
+    </script>
+</body>
+</html>
